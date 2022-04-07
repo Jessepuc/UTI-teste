@@ -6,14 +6,20 @@ import { Container } from 'react-bootstrap'
 
  function Nav() {
   return (
-    <Navbar bg="dark" variant='dark' expand="lg" >
-        <Container>
-            <Navbar.Brand href="">UTIP</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            </Navbar.Collapse>
-        </Container>
-    </Navbar>
+    <Navbar bg="dark" variant="dark">
+    <Container>
+      <Navbar.Brand href="">
+        <img
+          alt=""
+          src= "/logo192.png"  
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
+      UTIP
+      </Navbar.Brand>
+    </Container>
+  </Navbar>
   );
 }
 
