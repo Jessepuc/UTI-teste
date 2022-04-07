@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Loginpage from './Loginpage';
 import App from './App';
+import PaginaPadrao from './Paginapadrao';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+     <Routes>
+        <Route path='/welcome' element={<App/>} />
+        <Route path='/login' element={<Loginpage/>} />
+        <Route path="*" element={<PaginaPadrao/>} />
+     </Routes>
+   </BrowserRouter>,
   document.getElementById('root')
 );
 
