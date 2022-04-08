@@ -29,7 +29,7 @@ function Loginpage ()  {
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Check me out" />
                         <Form.Text className="text-muted">
-                            NÃ£o tem uma conta? <a href="#home">Registre-se.</a>
+                            Não tem uma conta? <a href="#home">Registre-se.</a>
                         </Form.Text>
                     </Form.Group>
                     <Button variant="primary" type="submit">

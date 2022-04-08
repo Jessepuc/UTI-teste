@@ -11,7 +11,7 @@ import { Container } from 'react-bootstrap'
       <Navbar.Brand href="">
         <img
           alt=""
-          src= "/logo192.png"  
+          src= "/deusa-themis.svg"  
           width="30"
           height="30"
           className="d-inline-block align-top"
